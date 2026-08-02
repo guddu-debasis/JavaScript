@@ -1,4 +1,4 @@
-// 1. Primitive allocation (Stack)
+// 1. Primitive allocation (Stack) {String ,number,boolean ...}
 let age = 25; 
 let newAge = age; // A separate, independent copy is created in the stack
 newAge = 30;      // Changing newAge does NOT affect age
@@ -6,7 +6,7 @@ newAge = 30;      // Changing newAge does NOT affect age
 console.log(age);    // Output: 25
 console.log(newAge); // Output: 30
 
-// 2. Reference allocation (Heap)
+// 2. Reference allocation (Heap){function,array,object}
 let user = {
     name: "Alice",
     role: "Admin"
