@@ -30,3 +30,8 @@ Object.freeze(JsUser) prevents modifications to an object (no adding, deleting, 
 for (let key in user) {
   console.log(`${key}: ${user[key]}`);  // iterates over each key-value pair in the user object
 }
+
+
+user.greetingTwo= function() {
+  console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+}
