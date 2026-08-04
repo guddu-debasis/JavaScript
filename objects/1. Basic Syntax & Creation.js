@@ -24,6 +24,7 @@ Object.keys(obj): Returns an array of an object's keys.
 Object.values(obj): Returns an array of an object's values.
 Object.entries(obj): Returns an array of [key, value] pairs.
 Object.assign(target, source): Merges properties from one object into another.
+Object.freeze(JsUser) prevents modifications to an object (no adding, deleting, or changing properties).
 */
 
 for (let key in user) {
