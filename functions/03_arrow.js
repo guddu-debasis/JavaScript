@@ -17,7 +17,7 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this);
 // }
 
 // chai()
@@ -27,10 +27,10 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {
-    let username = "hitesh"
-    console.log(this);
-}
+// const chai =  () => {
+//     let username = "hitesh"
+//     console.log(this);
+// }
 
 
 // chai()
@@ -43,10 +43,16 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+// const addTwo = (num1, num2) => ({username: "hitesh"})
+
+const multiplt = (num1,num2) => ({result: num1 * num2})
+
+const result = multiplt(3, 5)
+
+console.log(result);
 
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
