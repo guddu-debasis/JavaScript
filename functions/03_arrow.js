@@ -9,7 +9,7 @@ const user = {
 
 }
 
-// user.welcomeMessage()
+user.welcomeMessage()
 // user.username = "sam"
 // user.welcomeMessage()
 
