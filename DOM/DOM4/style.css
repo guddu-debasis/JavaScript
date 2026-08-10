@@ -1,0 +1,18 @@
+/* Forces the label and form onto the same horizontal line */
+.search-row-layout {
+  display: flex;
+  align-items: center; /* Vertically aligns text and box */
+  gap: 10px;           /* Clean spacing between label and input */
+  margin-bottom: 20px; /* Forces any future elements below this row */
+}
+
+/* Resets browser space defaults so things align straight */
+.search-row-layout h3 {
+  margin: 0;
+  white-space: nowrap; /* Keeps 'search:' on one line */
+}
+
+.search-row-layout .search-container {
+  margin: 0;
+  display: flex;
+}
